@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "gameboy",
+            "includePath": [
+                "${workspaceFolder}/src/**",
+                "${workspaceFolder}/build",
+                "${workspaceFolder}/../../gbdk/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "",
+            "cStandard": "c11",
+            "intelliSenseMode": "${default}",
+            "compilerArgs": [],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,12 @@
+/obj
+/unused
+*.bak
+*.dof
+*.dsk
+*.cfg
+*.map
+*.sym
+__pycache__
+@usage.bat
+*.ihx
+*.noi
