@@ -25,7 +25,7 @@ wav:
 	python utils/cvtsample.py sndrec/KICK.wav sample2 C >src/sampledata2.h
 
 prepare:
-	mkdir $(OBJDIR)
+	mkdir -p $(OBJDIR)
 
 clean:
 	rm -rf $(OBJDIR)/*

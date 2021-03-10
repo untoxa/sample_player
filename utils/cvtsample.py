@@ -44,7 +44,10 @@ def main(argv=None):
                         
                 flag = not flag
             sys.stdout.write(sFOOT)
-
+            sys.stdout.flush()
+        else:
+            sys.stderr.write("ERROR: Invalif wav file format")
+            sys.stderr.flush()
 
 if __name__=='__main__':
     main()
